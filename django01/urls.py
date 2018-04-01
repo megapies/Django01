@@ -19,5 +19,7 @@ from user_management import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^index/$', views.index)
+    url(r'^index/$', views.index),
+    url(r'^test-rest/', views.testREST),
+    url(r'^adduser/', views.addUser)
 ]
